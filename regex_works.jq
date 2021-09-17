@@ -1,1 +1,1 @@
-{title,olid:.key} | select(.title|test($regex)) 
+{title,olid:.key} | select(.title|test($regex))? 
